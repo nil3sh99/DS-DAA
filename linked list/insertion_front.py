@@ -40,3 +40,5 @@ if __name__ == '__main__':
     teesri_node.next = None
     # traversing nodes
     linkList.printList()
+    # pushing new node
+    linkList.push(0)
