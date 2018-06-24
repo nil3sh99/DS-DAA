@@ -44,3 +44,5 @@ if __name__ == '__main__':
     linkList.push(0)
     
     print('Your Linked list after insertion is')
+
+    linkList.printList()
