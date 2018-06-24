@@ -30,3 +30,4 @@ if __name__ == '__main__':
 
     print(phli_node.printList())
     print(doosri_node.printList())
+    print(teesri_node.printList())
