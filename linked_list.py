@@ -2,20 +2,31 @@ class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
-
+    def printList(self):
+        return '{}'.format(self.data)
+    
 class Linkedlist:
     def __init__(self):
-        self.head = None
+        self.head = None    
 
 if __name__ == '__main__':
 
-    linkList = Linkedlist()
-    linkList.head = Node(2)
+# work of __main__ is to verify that the modules imported for the file are matching
+#that of the current file, and hence avoiding copying of code without adding the complete file 
+#in the system
+
+    linkList = Linkedlist() #creating object
+ 
+    phli_node = linkList.head 
+    phli_node = Node(2)
     doosri_node = Node(4)
     teesri_node = Node(6)
 
-    linkList.head.next = doosri_node
+    linkList.next = doosri_node
 
     doosri_node.next = teesri_node
 
     teesri_node.next = None
+
+    print(phli_node.printList())
+    print(doosri_node.printList())
