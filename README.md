@@ -1,2 +1,2 @@
 # DS-t
-Contains essential Data Structur codes in Python and C++.
+Contains essential Data Structure codes in Python and C++.
