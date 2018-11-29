@@ -1,1 +1,1 @@
-Contributions are open :D
+## Contributions are open. :D
